@@ -1,0 +1,16 @@
+//Revision 1
+//NOTE
+//VXL Configuration
+//END_NOTE
+
+config siso_layout;
+design SISO.siso_layout:schematic;
+liblist SISO;
+
+viewlist physConfig, schematic, symbol;
+
+constraintviewlist constraint;
+stoplist layout, abstract;
+
+
+endconfig
